@@ -56,7 +56,7 @@ req.body                      →    @Body() body: CreateUserDTO
 ```
 
 ### Learn:
-- [ ] Understand TypeScript decorators (`@something`) — what they are, how they work
+- [x] Understand TypeScript decorators (`@something`) — what they are, how they work
 - [ ] Read NestJS docs: **"First Steps"** — create a basic NestJS app with `nest new`
 - [ ] Read NestJS docs: **"Controllers"** — `@Controller`, `@Get`, `@Post`, `@Body`, `@Param`, `@Query`
 
@@ -892,3 +892,4 @@ export class PaymentConsumer extends WorkerHost {
 | Optimistic concurrency | `order.repo.ts` (updatedAt check) |
 | Rate limiting | `app.module.ts` (ThrottlerModule) |
 | Swagger auto-docs | `main.ts` |
+
