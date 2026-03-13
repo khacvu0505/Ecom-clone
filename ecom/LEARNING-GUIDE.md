@@ -57,16 +57,16 @@ req.body                      →    @Body() body: CreateUserDTO
 
 ### Learn:
 - [x] Understand TypeScript decorators (`@something`) — what they are, how they work
-- [ ] Read NestJS docs: **"First Steps"** — create a basic NestJS app with `nest new`
-- [ ] Read NestJS docs: **"Controllers"** — `@Controller`, `@Get`, `@Post`, `@Body`, `@Param`, `@Query`
+- [x] Read NestJS docs: **"First Steps"** — create a basic NestJS app with `nest new`
+- [x] Read NestJS docs: **"Controllers"** — `@Controller`, `@Get`, `@Post`, `@Body`, `@Param`, `@Query`
 
 ### Practice:
-- [ ] Create a tiny NestJS project: 1 controller with GET and POST endpoint
-- [ ] Test with Postman or curl
+- [x] Create a tiny NestJS project: 1 controller with GET and POST endpoint
+- [x] Test with Postman or curl
 
 ### Self-check:
-- [ ] Can you explain what `@Controller('users')` and `@Get(':id')` generate?
-- [ ] Can you explain what `@Body()` does compared to Express `req.body`?
+- [x] Can you explain what `@Controller('users')` and `@Get(':id')` generate?
+- [x] Can you explain what `@Body()` does compared to Express `req.body`?
 
 ---
 
@@ -892,4 +892,5 @@ export class PaymentConsumer extends WorkerHost {
 | Optimistic concurrency | `order.repo.ts` (updatedAt check) |
 | Rate limiting | `app.module.ts` (ThrottlerModule) |
 | Swagger auto-docs | `main.ts` |
+
 
