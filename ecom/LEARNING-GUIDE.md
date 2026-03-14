@@ -12,7 +12,7 @@
 
 | Week | Day | Topic | Done |
 |------|-----|-------|------|
-| 1 | Day 1 (Mon) | TS Decorators + NestJS First Steps | [ ] |
+| 1 | Day 1 (Mon) | TS Decorators + NestJS First Steps | [x] |
 | 1 | Day 2 (Tue) | Providers, Services, DI | [ ] |
 | 1 | Day 3 (Wed) | Guards, Pipes, Interceptors | [ ] |
 | 1 | Day 4 (Thu) | Read Project Foundation | [ ] |
@@ -73,7 +73,7 @@ req.body                      →    @Body() body: CreateUserDTO
 ## Day 2 (Tue) — Providers, Services, Dependency Injection
 
 ### Learn:
-- [ ] Read NestJS docs: **"Providers"** — `@Injectable()`, constructor injection
+- [x] Read NestJS docs: **"Providers"** — `@Injectable()`, constructor injection
 - [ ] Read NestJS docs: **"Modules"** — `@Module({ imports, controllers, providers, exports })`
 - [ ] Understand: What is Dependency Injection (DI)? Why does NestJS use it?
 
