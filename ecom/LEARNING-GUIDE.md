@@ -16,7 +16,7 @@
 | 1 | Day 2 (Tue) | Providers, Services, DI | [x] |
 | 1 | Day 3 (Wed) | Guards, Pipes, Interceptors | [x] |
 | 1 | Day 4 (Thu) | Read Project Foundation | [x] |
-| 1 | Day 5 (Fri) | Prisma Fundamentals | [ ] |
+| 1 | Day 5 (Fri) | Prisma Fundamentals | [x] |
 | 1 | Day 6 (Sat) | Read Ecom Database Schema | [ ] |
 | 1 | Day 7 (Sun) | Zod Fundamentals + Week 1 Review | [ ] |
 | 2 | Day 8 (Mon) | Auth Constants + Decorators + Guards P1 | [ ] |
@@ -258,17 +258,17 @@ prisma.user.findFirst({
 ### Learn:
 - [x] Read Prisma docs: **"Quickstart"** — setup Prisma with PostgreSQL
 - [x] Read Prisma docs: **"CRUD"** — `findMany`, `findUnique`, `create`, `update`, `delete`
-- [ ] Read Prisma docs: **"Relations"** — `include`, 1-1, 1-N, N-M relations
+- [x] Read Prisma docs: **"Relations"** — `include`, 1-1, 1-N, N-M relations
 - [x] Read Prisma docs: **"Transactions"** — `$transaction`
 
 ### Practice:
-- [ ] Setup Prisma in your test project with a simple `User` model
-- [ ] Write: `create`, `findMany`, `findUnique`, `update`, `delete` queries
+- [x] Setup Prisma in your test project with a simple `User` model
+- [x] Write: `create`, `findMany`, `findUnique`, `update`, `delete` queries
 
 ### Self-check:
-- [ ] What does `include: { role: true }` do?
-- [ ] What is the difference between `findUnique` and `findFirst`?
-- [ ] What does `npx prisma migrate dev` do?
+- [x] What does `include: { role: true }` do?
+- [x] What is the difference between `findUnique` and `findFirst`?
+- [x] What does `npx prisma migrate dev` do?
 
 ---
 
