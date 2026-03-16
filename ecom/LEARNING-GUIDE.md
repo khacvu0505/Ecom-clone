@@ -122,10 +122,10 @@ req.body                      →    @Body() body: CreateUserDTO
 **Now you start reading THIS project's actual code.**
 
 ### Read these files (in order):
-- [ ] `src/main.ts` — How the app boots (Swagger, Helmet, CORS, WebSocket)
-- [ ] `src/app.module.ts` — The root wiring diagram (all imports, global providers)
-- [ ] `src/shared/shared.module.ts` — `@Global()` module, what services are shared
-- [ ] `src/shared/config.ts` — Env validation with Zod at startup
+- [x] `src/main.ts` — How the app boots (Swagger, Helmet, CORS, WebSocket)
+- [x] `src/app.module.ts` — The root wiring diagram (all imports, global providers)
+- [x] `src/shared/shared.module.ts` — `@Global()` module, what services are shared
+- [x] `src/shared/config.ts` — Env validation with Zod at startup
 
 ### What's happening in `main.ts`:
 
@@ -219,14 +219,14 @@ if (!configServer.success) {
 **Pattern: Fail fast.** Don't let the app run with missing config and crash later at runtime.
 
 ### Understand:
-- [ ] Draw/write the request pipeline: Request → ? → ? → ? → Response
-- [ ] List the 5 global providers registered in `app.module.ts` and what each does
-- [ ] Explain why `SharedModule` is `@Global()`
+- [x] Draw/write the request pipeline: Request → ? → ? → ? → Response
+- [x] List the 5 global providers registered in `app.module.ts` and what each does
+- [x] Explain why `SharedModule` is `@Global()`
 
 ### Self-check:
-- [ ] What happens if `.env` file is missing?
-- [ ] Which guard runs on EVERY request? (ThrottlerBehindProxyGuard + AuthenticationGuard)
-- [ ] What is `APP_PIPE` vs `APP_GUARD` vs `APP_FILTER` vs `APP_INTERCEPTOR`?
+- [x] What happens if `.env` file is missing?
+- [x] Which guard runs on EVERY request? (ThrottlerBehindProxyGuard + AuthenticationGuard)
+- [x] What is `APP_PIPE` vs `APP_GUARD` vs `APP_FILTER` vs `APP_INTERCEPTOR`?
 
 ---
 
@@ -256,10 +256,10 @@ prisma.user.findFirst({
 ```
 
 ### Learn:
-- [ ] Read Prisma docs: **"Quickstart"** — setup Prisma with PostgreSQL
-- [ ] Read Prisma docs: **"CRUD"** — `findMany`, `findUnique`, `create`, `update`, `delete`
+- [x] Read Prisma docs: **"Quickstart"** — setup Prisma with PostgreSQL
+- [x] Read Prisma docs: **"CRUD"** — `findMany`, `findUnique`, `create`, `update`, `delete`
 - [ ] Read Prisma docs: **"Relations"** — `include`, 1-1, 1-N, N-M relations
-- [ ] Read Prisma docs: **"Transactions"** — `$transaction`
+- [x] Read Prisma docs: **"Transactions"** — `$transaction`
 
 ### Practice:
 - [ ] Setup Prisma in your test project with a simple `User` model
