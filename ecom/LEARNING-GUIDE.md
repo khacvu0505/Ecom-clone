@@ -13,9 +13,9 @@
 | Week | Day | Topic | Done |
 |------|-----|-------|------|
 | 1 | Day 1 (Mon) | TS Decorators + NestJS First Steps | [x] |
-| 1 | Day 2 (Tue) | Providers, Services, DI | [ ] |
-| 1 | Day 3 (Wed) | Guards, Pipes, Interceptors | [ ] |
-| 1 | Day 4 (Thu) | Read Project Foundation | [ ] |
+| 1 | Day 2 (Tue) | Providers, Services, DI | [x] |
+| 1 | Day 3 (Wed) | Guards, Pipes, Interceptors | [x] |
+| 1 | Day 4 (Thu) | Read Project Foundation | [x] |
 | 1 | Day 5 (Fri) | Prisma Fundamentals | [ ] |
 | 1 | Day 6 (Sat) | Read Ecom Database Schema | [ ] |
 | 1 | Day 7 (Sun) | Zod Fundamentals + Week 1 Review | [ ] |
@@ -74,35 +74,35 @@ req.body                      →    @Body() body: CreateUserDTO
 
 ### Learn:
 - [x] Read NestJS docs: **"Providers"** — `@Injectable()`, constructor injection
-- [ ] Read NestJS docs: **"Modules"** — `@Module({ imports, controllers, providers, exports })`
-- [ ] Understand: What is Dependency Injection (DI)? Why does NestJS use it?
+- [x] Read NestJS docs: **"Modules"** — `@Module({ imports, controllers, providers, exports })`
+- [x] Understand: What is Dependency Injection (DI)? Why does NestJS use it?
 
 ### Practice:
-- [ ] Add a Service to your Day 1 project: move logic from controller → service
-- [ ] Create a second module, import it, and use its exported service
+- [x] Add a Service to your Day 1 project: move logic from controller → service
+- [x] Create a second module, import it, and use its exported service
 
 ### Self-check:
-- [ ] What does `constructor(private readonly userService: UserService)` do?
-- [ ] What happens if you forget to add a service to `providers` in `@Module`?
-- [ ] What does `exports` do in a module?
+- [x] What does `constructor(private readonly userService: UserService)` do?
+- [x] What happens if you forget to add a service to `providers` in `@Module`?
+- [x] What does `exports` do in a module?
 
 ---
 
 ## Day 3 (Wed) — Guards, Pipes, Interceptors
 
 ### Learn:
-- [ ] Read NestJS docs: **"Guards"** — `CanActivate`, `ExecutionContext`
-- [ ] Read NestJS docs: **"Pipes"** — validation and transformation
-- [ ] Read NestJS docs: **"Interceptors"** — before/after request processing
-- [ ] Understand the NestJS request lifecycle order: Middleware → Guard → Interceptor (before) → Pipe → Controller → Interceptor (after) → Filter (on error)
+- [x] Read NestJS docs: **"Guards"** — `CanActivate`, `ExecutionContext`
+- [x] Read NestJS docs: **"Pipes"** — validation and transformation
+- [x] Read NestJS docs: **"Interceptors"** — before/after request processing
+- [x] Understand the NestJS request lifecycle order: Middleware → Guard → Interceptor (before) → Pipe → Controller → Interceptor (after) → Filter (on error)
 
 ### Practice:
-- [ ] Create a simple AuthGuard that checks for a hardcoded API key in headers
-- [ ] Apply it to one route using `@UseGuards()`
+- [x] Create a simple AuthGuard that checks for a hardcoded API key in headers
+- [x] Apply it to one route using `@UseGuards()`
 
 ### Self-check:
-- [ ] What's the difference between Guard, Pipe, and Interceptor?
-- [ ] What does `APP_GUARD` mean (vs `@UseGuards()` on a single route)?
+- [x] What's the difference between Guard, Pipe, and Interceptor?
+- [x] What does `APP_GUARD` mean (vs `@UseGuards()` on a single route)?
 
 ### Key concept — 6 NestJS building blocks used in this project:
 
